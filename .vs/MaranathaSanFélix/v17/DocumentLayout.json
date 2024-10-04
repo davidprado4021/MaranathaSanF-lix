@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\wwwroot\\css\\layoutpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\wwwroot\\css\\layoutpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 919,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "MaranathaSanF\u00E9lix\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-04T20:14:17.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T20:13:52.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 919,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LayoutPag.css",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
+              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
+              "RelativeToolTip": "MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T20:17:15.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

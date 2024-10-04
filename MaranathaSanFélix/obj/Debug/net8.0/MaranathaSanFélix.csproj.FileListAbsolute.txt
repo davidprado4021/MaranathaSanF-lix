@@ -26,3 +26,4 @@ C:\Users\david\source\repos\MaranathaSanFélix\MaranathaSanFélix\obj\Debug\net8
 C:\Users\david\source\repos\MaranathaSanFélix\MaranathaSanFélix\obj\Debug\net8.0\MaranathaSanFélix.pdb
 C:\Users\david\source\repos\MaranathaSanFélix\MaranathaSanFélix\obj\Debug\net8.0\MaranathaSanFélix.genruntimeconfig.cache
 C:\Users\david\source\repos\MaranathaSanFélix\MaranathaSanFélix\obj\Debug\net8.0\ref\MaranathaSanFélix.dll
+C:\Users\david\source\repos\MaranathaSanFélix\MaranathaSanFélix\obj\Debug\net8.0\MaranathaSanFélix.sourcelink.json

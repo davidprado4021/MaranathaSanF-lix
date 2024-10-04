@@ -120,6 +120,15 @@
 .scrolling {
     animation: fadeOutMenu 1s ease forwards;
 }
+/* Nueva clase para el fondo azul */
+.blue-background {
+    background-color: #25354a; /* Color azul */
+    transition: background-color 0.5s ease; /* Transición suave */
+}
+.white-text ul li a {
+    color: white;
+    transition: color 0.5s ease; /* Transición suave del color de texto */
+}
 
 @keyframes fadeOutMenu {
     from {
