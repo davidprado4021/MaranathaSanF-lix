@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @* Este meta es para colocar etiqueta CEO *@
+    <meta author="DavidPrado" content="IglesiaMaranatha,DavidAcuerdate" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>@ViewData["Title"]MaranathaSanFelixWeb</title>
+    <link rel="icon" type="image/x-icon" href="~/MaranathaSF16x16.ico" sizes="16x16">
+    <link rel="icon" type="image/x-icon" href="~/MaranathaSF32x32.ico" sizes="32x32">
+    <link rel="stylesheet" href="~/css/DefaultSettings.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/LayoutPag.css" asp-append-version="true" />
+
+</head>
+<body>
+    @* NavBar *@
+    <div class="sticky top-0">
+        <div id="logo1" class="Bg-cyan-blue text-center topHeader">
+            <a class="inline-block p-2" href="@Url.Action("Index","Home")">
+                <img class="filter invert brightness-0 logo" src="/Sources/Image/Logos/MaranathaSF.svg" alt="LogoMSF" />
+            </a>
+        </div>
+        <nav class="navbar text-xl flexNav">
+            <a class="inline-block p-2 navLogo hidden" href="@Url.Action("Index","Home")">
+                <img class="filter invert brightness-0 logo" src="/Sources/Image/Logos/MaranathaSF.svg" alt="LogoMSF" />
+            </a>
+            <ul class="flex space-x-7 p-3">
+                <li>
+                    <a asp-area="" asp-controller="Nosotros" asp-action="Nosotros">Nosotros</a>
+                </li>
+                <li>
+                    <a>Ministerio</a>
+                </li>
+                <li>
+                    <a>Contáctanos</a>
+                </li>
+                <li>
+                    <a>Donaciones</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Login" asp-action="Login">Login/Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="~/js/site.js"></script>
+    @* BodyPart *@
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    @* Footer *@
+    <footer>
+        <div class="flex font-div4">
+            <div>
+                <div class="img-logo03">
+                    <img class="filter invert brightness-0" src="/Sources/Image/Logos/MaranathaSF.svg" alt="Logo Maranatha" />
+                </div>
+                <ul class="p-whitegotham text-left ul-title">
+                    <li>NOSOTROS</li>
+                    <li>MINISTERIO</li>
+                    <li>CONTÁCTO</li>
+                    <li>DONACIONES</li>
+                </ul>
+            </div>
+            <div class="p-whitegotham text-right divPosition">
+                <h3 class=" ">Ubicación:</h3>
+                <p>
+                    Vista Alegre, Calle Monagas <br>
+                    Calle 1 - Local N°2 <br>
+                    San Félix Edo.Bolivar
+                </p>
+                <h3>Contácto</h3>
+                <div>
+                    <a>+58 424-000-000</a>
+                    <br>
+                    <a>+58 424-000-000</a>
+                </div>
+                <h3>E-mail</h3>
+                <a>info@maranathasanfelix.com</a>
+            </div>
+        </div>
+        <div class="flex">
+            @* FacebookLogo *@
+            <button onclick="window.open('https://www.facebook.com/Maranatha8051/', '_blank')">
+                <img class="img-logo07" src="/Sources/Image/Logos/FBLogo.png" alt="Facebook Link" />
+            </button>
+            @* InstagramLogo *@
+            <button onclick="window.open('https://www.instagram.com/sf.maranatha/', '_blank')">
+                <img class="img-logo08" src="/Sources/Image/Logos/InstagramLogo.png" alt="Instagram Link" />
+            </button>
+            @* YoutubeLogo *@
+            <button onclick="window.open('https://www.youtube.com/&#64MaranathaSanFelixOficial/', '_blank')">
+                <img class="img-logo09" src="/Sources/Image/Logos/YTLogo.png" alt="Youtube Link" />
+            </button>
+            @* TikTokLogo *@
+            <button onclick="window.open('https://www.tiktok.com/&#64maranathasanfelix?_t=8p0WTBhPDnh&_r=1/', '_blank')">
+                <img class="img-logo10" src="/Sources/Image/Logos/TikTokLogo.png" alt="Tiktok Link" />
+            </button>
+        </div>
+    </footer>
+</body>
+</html>

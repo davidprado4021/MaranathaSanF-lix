@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\MaranathaSF16x16.ico",
+      "PackagePath": "staticwebassets\\MaranathaSF16x16.ico"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\MaranathaSF32x32.ico",
+      "PackagePath": "staticwebassets\\MaranathaSF32x32.ico"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Fonts\\Gotham-Bold.otf",
+      "PackagePath": "staticwebassets\\Sources\\Fonts\\Gotham-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Fonts\\Gotham-Medium.otf",
+      "PackagePath": "staticwebassets\\Sources\\Fonts\\Gotham-Medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Fonts\\black-sketch.otf",
+      "PackagePath": "staticwebassets\\Sources\\Fonts\\black-sketch.otf"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Background\\BgBody01.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Background\\BgBody01.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Background\\BgBody02.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Background\\BgBody02.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\EECLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\EECLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\FBLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\FBLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\HDCLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\HDCLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\InstagramLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\InstagramLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\JEFLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\JEFLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\MIFLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\MIFLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\MaranathaSF.svg",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\MaranathaSF.svg"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\TikTokLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\TikTokLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\XLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\XLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\YTLogo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\YTLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\AP-Hugo.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\AP-Hugo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\AP-Javier.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\AP-Javier.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\AP-Nahum.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\AP-Nahum.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\EECR1.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\EECR1.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\Lilina&Jose.jpg",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\Lilina&Jose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\PastoresHD.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\PastoresHD.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\DefaultSettings.css",
+      "PackagePath": "staticwebassets\\css\\DefaultSettings.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\IndexPag.css",
+      "PackagePath": "staticwebassets\\css\\IndexPag.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\LayoutPag.css",
+      "PackagePath": "staticwebassets\\css\\LayoutPag.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\LoginPag.css",
+      "PackagePath": "staticwebassets\\css\\LoginPag.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MaranathaSanFélix.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MaranathaSanFélix.props",
+      "PackagePath": "build\\MaranathaSanFélix.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MaranathaSanFélix.props",
+      "PackagePath": "buildMultiTargeting\\MaranathaSanFélix.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MaranathaSanFélix.props",
+      "PackagePath": "buildTransitive\\MaranathaSanFélix.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

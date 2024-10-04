@@ -1,0 +1,132 @@
+﻿.font-div4 {
+    min-height: 40vh;
+    background-size: cover;
+    background-position-y: 30%;
+    background-color: #25354a;
+    /*background-image: url('/Sources/Image/Background/BgBody01.png');*/
+}
+
+.navbar a {
+    font-family: 'Gotham-Bold';
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #25354a;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 0 0 1rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul a:hover {
+    background-color: #6690D3;
+    color: black;
+    cursor: pointer;
+}
+/* Imagenes
+   ========================================================================== */
+.img-logo03 {
+    width: 25rem;
+    margin: 10% 0 0 15%;
+}
+
+.img-logo07 {
+}
+
+.img-logo08 {
+    width: 180rem;
+    margin-left: -2rem;
+}
+
+.img-logo09 {
+    width: 130rem;
+    margin-left: -2.5rem;
+}
+
+.img-logo10 {
+    width: 100rem;
+    margin-left: -2rem;
+}
+
+/* Posiciones
+   ========================================================================== */
+/*Titulos*/
+.ul-title {
+    margin: 15% 0 0 30%;
+    width: 18rem;
+    height: 18rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+/*Divs*/
+.divPosition {
+    margin: 4% 0 0 65%;
+}
+/*Parrafos*/
+
+/*Botones*/
+
+/* Estilos Dinamicos 
+    ========================================================================== */
+.topHeader {
+    transition: 1s ease;
+    height: 7rem;
+}
+
+.topHeader {
+    height: 100%;
+}
+
+.navLogo {
+    width: 10%;
+}
+
+.flexNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 20rem;
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.navbar {
+    transition: padding 0.3s ease;
+}
+
+/* Estilos cuando se hace scroll */
+.hidden {
+    display: none;
+    transition: opacity 0.5s ease;
+}
+
+.hiddenav {
+    margin-top: -10vh;
+    transition: opacity 0.5s ease;
+}
+
+.navLogo {
+    width: 10%;
+    transition: opacity 0.5s ease;
+}
+
+.logo {
+    transition: opacity 0.5s ease;
+}
+
+.scrolling {
+    animation: fadeOutMenu 1s ease forwards;
+}
+
+@keyframes fadeOutMenu {
+    from {
+        height: 7rem;
+    }
+
+    to {
+        height: 0;
+    }
+}

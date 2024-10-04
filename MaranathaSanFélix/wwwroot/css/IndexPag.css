@@ -1,0 +1,190 @@
+﻿/* Fondos del body index
+   ========================================================================== */
+.font-div1 {
+    margin-top: -6rem;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Sources/Image/Background/BgBody01.png');
+}
+
+.font-div2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90% 10%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Sources/Image/Background/BgBody02.png');
+}
+
+.font-div3 {
+    height: 91.1vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.font-div5 {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: radial-gradient(#25354a 3%, transparent 0.5%), radial-gradient(#000 20%, transparent 20%);
+    background-position: 0 0, 50px 50px; /* Posición de los puntos */
+    background-size: 4px 4px; /* Tamaño de los puntos */
+}
+
+/* Fondos de divs index
+   ========================================================================== */
+.font-div01 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Sources/Image/Resources/AP-Nahum.png');
+}
+
+.font-div02 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Sources/Image/Resources/AP-Javier.png');
+}
+
+.font-div03 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Sources/Image/Resources/AP-Hugo.png');
+}
+
+/* Fondos del body desde font-div2*/
+.evangelioImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.evangelioInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .evangelioInfo p, .evangelioInfo h2 {
+        padding: 1rem 0;
+    }
+
+/* Imagenes
+   ========================================================================== */
+.img-logo02 {
+    width: 35rem;
+}
+
+.img-body01 {
+    margin-left: 35rem;
+    margin-top: -8rem;
+    height: 64rem;
+}
+
+.img-body02 {
+    width: 50rem;
+    animation-name: fadeInRight;
+    animation-duration: 1.5s;
+}
+
+.img-logo04 {
+    height: 40rem;
+    margin-left: 20%;
+}
+
+.img-logo05 {
+    height: 40rem;
+    margin-left: 40%;
+}
+
+.img-logo06 {
+    width: 40rem;
+    margin-left: 55%
+}
+
+/* Posiciones
+   ========================================================================== */
+/*Titulos*/
+.a-title {
+    margin-left: 6rem;
+    margin-top: 6.5rem;
+}
+
+.h1-title {
+    margin-left: 6rem;
+    margin-top: 0.1rem;
+}
+
+.h2-title1 {
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.h2-title2 {
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.h2-title3 {
+    margin-top: 4%;
+    margin-left: 50%;
+    margin-bottom: 4%;
+}
+
+/*Parrafos*/
+.p1-body {
+    margin-left: 6rem;
+    margin-top: -25rem;
+}
+
+.p2-body {
+    margin-left: 72rem;
+    margin-top: -30rem;
+}
+
+.p3-body {
+    margin-left: 90rem;
+    margin-top: 2rem;
+}
+
+/*Botones*/
+.b1-body {
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+.b2-body {
+    grid-area: 2 / span 2;
+    width: 15rem;
+    height: 4rem;
+    margin-left: 46%
+}
+
+.b3-body {
+    margin-left: 44%;
+    margin-top: 126.8%;
+}
+
+/*Animaciones*/
+@keyframes fadeInRight {
+    from {
+        margin-left: 0;
+        opacity: 20%;
+    }
+
+    to {
+        margin-left: 8rem;
+        opacity: 100%;
+    }
+}
+
+.b4-body {
+    margin-left: 50%;
+    margin-top: 6%;
+}
