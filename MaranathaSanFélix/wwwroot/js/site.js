@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
     const scrollPosition = document.body.scrollTop || document.documentElement.scrollTop;
 
     // Verifica si el scroll ha pasado el umbral de 1
-    if (scrollPosition > 1 && !hasScrolledPastThreshold) {
+    if (scrollPosition > 0 && !hasScrolledPastThreshold) {
         // Si pasamos el umbral por primera vez
         navLogo.classList.remove("hidden"); // Mostrar el logo 2
         topHeaderLogo.classList.add("hidden"); // Ocultar el logo 1
@@ -19,7 +19,7 @@ window.addEventListener('scroll', function () {
         hasScrolledPastThreshold = true; // Actualizamos el estado
     }
     // Verifica si estamos de regreso en el umbral y si habíamos pasado antes
-    else if (scrollPosition <= 1 && hasScrolledPastThreshold) {
+    else if (scrollPosition < 1 && hasScrolledPastThreshold) {
         // Si volvemos al tope del scroll
         navLogo.classList.add("hidden"); // Ocultar el logo 2
         topHeaderLogo.classList.remove("hidden"); // Mostrar el logo 1

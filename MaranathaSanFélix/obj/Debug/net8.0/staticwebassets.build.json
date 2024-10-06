@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2T1CFAPrmmHl2Jy81hl9+8cvzRqXNeWgXcDstnS9XEE=",
+  "Hash": "wJAmjdnKIOrcOp5YcAJPncgflmnWbt7e/EVHrvOSnfs=",
   "Source": "MaranathaSanFélix",
   "BasePath": "_content/MaranathaSanFélix",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\LoginPag.css"
+    },
+    {
+      "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\Index.js",
+      "SourceId": "MaranathaSanFélix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\",
+      "BasePath": "_content/MaranathaSanFélix",
+      "RelativePath": "js/Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.js"
     },
     {
       "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\login.js",

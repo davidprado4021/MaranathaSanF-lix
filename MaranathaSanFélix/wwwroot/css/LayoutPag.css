@@ -1,80 +1,20 @@
-﻿.font-div4 {
+﻿/* Estilos Generales */
+body {
+    margin: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+/* Estilos de la cabecera */
+.font-div4 {
     min-height: 40vh;
     background-size: cover;
-    background-position-y: 30%;
+    background-position: center;
     background-color: #25354a;
-    /*background-image: url('/Sources/Image/Background/BgBody01.png');*/
 }
 
-.navbar a {
-    font-family: 'Gotham-Bold';
-    font-weight: 500;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #25354a;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 0 0 1rem 1rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar ul a:hover {
-    background-color: #6690D3;
-    color: black;
-    cursor: pointer;
-}
-/* Imagenes
-   ========================================================================== */
-.img-logo03 {
-    width: 25rem;
-    margin: 10% 0 0 15%;
-}
-
-.img-logo07 {
-}
-
-.img-logo08 {
-    width: 180rem;
-    margin-left: -2rem;
-}
-
-.img-logo09 {
-    width: 130rem;
-    margin-left: -2.5rem;
-}
-
-.img-logo10 {
-    width: 100rem;
-    margin-left: -2rem;
-}
-
-/* Posiciones
-   ========================================================================== */
-/*Titulos*/
-.ul-title {
-    margin: 15% 0 0 30%;
-    width: 18rem;
-    height: 18rem;
-    font-size: 2.4rem;
-    line-height: 4rem;
-}
-/*Divs*/
-.divPosition {
-    margin: 4% 0 0 65%;
-}
-/*Parrafos*/
-
-/*Botones*/
-
-/* Estilos Dinamicos 
-    ========================================================================== */
 .topHeader {
     transition: 1s ease;
     height: 7rem;
-}
-
-.topHeader {
-    height: 100%;
 }
 
 .navLogo {
@@ -88,13 +28,76 @@
 }
 
 .logo {
-    width: 20rem;
-    height: 100%;
+    width: 100%;
+    max-width: 20rem; /* Asegúrate de que no exceda 20rem */
+    height: auto; /* Mantiene la proporción de la imagen */
     transition: width 0.3s ease;
 }
 
+/* Estilos de la Navegación */
 .navbar {
     transition: padding 0.3s ease;
+}
+
+    .navbar a {
+        font-family: 'Gotham-Bold';
+        font-weight: 500;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #25354a;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 0 0 1rem 1rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar ul a:hover {
+        background-color: #6690D3;
+        color: black;
+        cursor: pointer;
+    }
+
+/* Estilos de las Imágenes */
+.img-logo03 {
+    width: 25rem;
+    margin: 10% 0 0 15%;
+}
+
+.img-logo07, .img-logo08, .img-logo09, .img-logo10 {
+    width: 5rem; /* Ajustar según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.img-logo08 {
+    margin-left: -2rem;
+}
+
+.img-logo09 {
+    margin-left: -2.5rem;
+}
+
+.img-logo10 {
+    margin-left: -2rem;
+}
+
+/* Posiciones */
+.ul-title {
+    margin: 15% 0 0 30%;
+    width: 18rem;
+    height: 18rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+.divPosition {
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+/* Estilos Dinámicos */
+.topHeader {
+    transition: 1s ease;
+    height: 100%;
 }
 
 /* Estilos cuando se hace scroll */
@@ -108,28 +111,22 @@
     transition: opacity 0.5s ease;
 }
 
-.navLogo {
-    width: 10%;
-    transition: opacity 0.5s ease;
-}
-
-.logo {
-    transition: opacity 0.5s ease;
-}
-
 .scrolling {
     animation: fadeOutMenu 1s ease forwards;
 }
+
 /* Nueva clase para el fondo azul */
 .blue-background {
     background-color: #25354a; /* Color azul */
     transition: background-color 0.5s ease; /* Transición suave */
 }
+
 .white-text ul li a {
     color: white;
     transition: color 0.5s ease; /* Transición suave del color de texto */
 }
 
+/* Animaciones */
 @keyframes fadeOutMenu {
     from {
         height: 7rem;
@@ -137,5 +134,68 @@
 
     to {
         height: 0;
+    }
+}
+
+/* Estilos de Footer */
+footer {
+    background-color: #2d3748; /* Color de fondo del footer */
+    color: white; /* Color del texto del footer */
+    padding: 2rem; /* Espaciado en el footer */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 600px) {
+    .font-div4 {
+        min-height: 30vh;
+    }
+
+    .navbar a {
+        font-size: 0.9rem; /* Texto más pequeño en móviles */
+        padding: 5px 10px; /* Espaciado reducido */
+    }
+
+    .img-logo03 {
+        width: 15rem; /* Ajustar el tamaño de la imagen del logo */
+        margin: 5% 0 0 10%; /* Ajustar márgenes */
+    }
+
+    .ul-title {
+        margin: 10% 0 0 10%;
+        width: 100%; /* Ancho completo */
+        height: auto; /* Ajuste automático */
+        font-size: 1.6rem; /* Tamaño de fuente reducido */
+        line-height: 2rem; /* Altura de línea ajustada */
+    }
+
+    .divPosition {
+        margin-top: 3%; /* Margen superior reducido */
+        margin-right: 0; /* Sin margen derecho */
+    }
+
+    .img-logo07, .img-logo08, .img-logo09, .img-logo10 {
+        width: 4rem; /* Ajustar tamaño de íconos en móviles */
+    }
+}
+
+@media (min-width: 600px) {
+    .font-div4 {
+        min-height: 40vh; /* Altura mayor en pantallas más grandes */
+    }
+
+    .navbar a {
+        font-size: 1rem; /* Texto de tamaño normal */
+    }
+
+    .img-logo03 {
+        width: 25rem; /* Mantener tamaño en pantallas grandes */
+    }
+
+    .ul-title {
+        margin: 15% 0 0 30%;
+        width: 18rem; /* Mantener ancho en pantallas grandes */
+        height: 18rem; /* Mantener altura en pantallas grandes */
+        font-size: 2.4rem; /* Mantener tamaño de fuente */
+        line-height: 4rem; /* Mantener altura de línea */
     }
 }
