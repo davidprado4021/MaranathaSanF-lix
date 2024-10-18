@@ -117,6 +117,10 @@
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
       "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

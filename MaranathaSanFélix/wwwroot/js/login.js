@@ -1,67 +1,27 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
     const authForm = document.getElementById('authForm');
     const formTitle = document.getElementById('formTitle');
-    const nameField = document.getElementById('nameField');
     const submitButton = document.getElementById('submitButton');
     const toggleAuth = document.getElementById('toggleAuth');
     const errorMessage = document.getElementById('errorMessage');
     const googleAuth = document.getElementById('googleAuth');
     const googleButtonText = document.getElementById('googleButtonText');
 
-    let isLogin = true;
-
-    function toggleAuthMode() {
-        isLogin = !isLogin;
-        formTitle.textContent = isLogin ? 'Welcome to Maranatha' : 'Join Maranatha';
-        nameField.classList.toggle('hidden');
-        submitButton.textContent = isLogin ? 'Login' : 'Register';
-        toggleAuth.textContent = isLogin ? "Don't have an account? Register" : 'Already have an account? Login';
-        googleButtonText.textContent = isLogin ? 'Login with Google' : 'Register with Google';
-        errorMessage.textContent = '';
-    }
-
-    toggleAuth.addEventListener('click', toggleAuthMode);
-
+    // Manejar el envío del formulario
     authForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+        // Si hay lógica que necesitas implementar antes de enviar, hazlo aquí
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
-        const name = document.getElementById('name').value;
 
-        if (isLogin) {
-            // Mock login logic
-            if (email === 'user@example.com' && password === 'password') {
-                errorMessage.textContent = 'Login successful!';
-                errorMessage.style.color = '#4CAF50';
-            } else {
-                errorMessage.textContent = 'Invalid email or password';
-                errorMessage.style.color = '#ff6b6b';
-                authForm.classList.add('shake');
-                setTimeout(() => {
-                    authForm.classList.remove('shake');
-                }, 500);
-            }
-        } else {
-            // Mock registration logic
-            if (name && email && password) {
-                errorMessage.textContent = 'Registration successful!';
-                errorMessage.style.color = '#4CAF50';
-            } else {
-                errorMessage.textContent = 'Please fill in all fields';
-                errorMessage.style.color = '#ff6b6b';
-                authForm.classList.add('shake');
-                setTimeout(() => {
-                    authForm.classList.remove('shake');
-                }, 500);
-            }
-        }
+        // Aquí puedes agregar lógica adicional si es necesario, o simplemente dejar que el formulario se envíe normalmente
     });
 
+    // Manejo de Google Auth
     googleAuth.addEventListener('click', () => {
-        alert(`${isLogin ? 'Login' : 'Registration'} with Google clicked. Implement actual Google authentication here.`);
+        alert('Login with Google clicked. Implement actual Google authentication here.');
     });
 
-    // Create and animate background circles
+    // Crear y animar círculos de fondo
     const background = document.querySelector('.background');
     for (let i = 0; i < 20; i++) {
         const circle = document.createElement('span');

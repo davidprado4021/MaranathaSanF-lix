@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\wwwroot\\css\\indexpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\wwwroot\\css\\indexpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\wwwroot\\css\\layoutpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\wwwroot\\css\\layoutpag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|c:\\users\\david\\source\\repos\\maranathasanf\u00E9lix\\maranathasanf\u00E9lix\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07CBFEA8-2D8C-4A2C-AD2C-91BBBFB5DFBD}|MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix.csproj|solutionrelative:maranathasanf\u00E9lix\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -39,70 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 940,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LayoutPag.css",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
-              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
-              "RelativeToolTip": "MaranathaSanF\u00E9lix\\wwwroot\\css\\LayoutPag.css",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAJMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-05T23:30:23.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IndexPag.css",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\IndexPag.css",
-              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\wwwroot\\css\\IndexPag.css",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\wwwroot\\css\\IndexPag.css",
-              "RelativeToolTip": "MaranathaSanF\u00E9lix\\wwwroot\\css\\IndexPag.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-06T00:08:18.592Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 734,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MaranathaSanF\u00E9lix\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T18:14:52.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MaranathaSanF\u00E9lix\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\MaranathaSanF\u00E9lix\\MaranathaSanF\u00E9lix\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MaranathaSanF\u00E9lix\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwEsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T21:11:40.205Z",
-              "EditorCaption": ""
             }
           ]
         }
