@@ -51,10 +51,10 @@
     align-items: center;
     padding: 40px;
     transition: all 0.3s ease;
+    z-index: 10;
 }
 
     .container:hover {
-        transform: translateY(-5px);
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
     }
 
@@ -234,4 +234,28 @@ button {
 
 .shake {
     animation: shake 0.5s ease-in-out;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.text-danger {
+    color: #ff6b6b;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Agrega esta clase en tu archivo CSS */
+.background-overlay {
+    position: fixed; /* Para que cubra toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    transition: background-color 0.5s ease; /* Suaviza la transición */
+    z-index: 10; /* Asegúrate de que esté encima del fondo */
+    display: block; /* Inicialmente visible */
 }

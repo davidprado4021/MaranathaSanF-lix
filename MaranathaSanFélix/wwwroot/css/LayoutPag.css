@@ -34,8 +34,14 @@ body {
     transition: width 0.3s ease;
 }
 
+.prueba {
+    position: relative;
+    z-index: 1000;
+}
+
 /* Estilos de la Navegación */
 .navbar {
+
     transition: padding 0.3s ease;
 }
 
@@ -198,4 +204,45 @@ footer {
         font-size: 2.4rem; /* Mantener tamaño de fuente */
         line-height: 4rem; /* Mantener altura de línea */
     }
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/* Estilos de Footer */
+footer {
+    color: white; /* Color del texto del footer */
+    display: flex; /* Flexbox para alinear elementos */
+    flex-direction: column; /* Direccion vertical */
+    align-items: center; /* Alinear al centro */
+}
+
+/* Flex para alineación en móviles */
+.flex01 {
+    display: flex;
+    flex-direction: column; /* Dirección vertical en móviles */
+    align-items: center; /* Alinear al centro */
+}
+
+@media (min-width: 600px) {
+    .flex01 {
+        flex-direction: row; /* Dirección horizontal en pantallas más grandes */
+        justify-content: space-between; /* Espacio entre los elementos */
+        width: 100%; /* Ancho completo */
+    }
+}
+
+/* Títulos y párrafos dentro del footer */
+h3 {
+    margin: 0.5rem 0; /* Espaciado vertical */
+}
+
+.p-whitegotham {
+    margin: 1rem 0; /* Margen en texto */
+}
+
+.ul-title {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
 }

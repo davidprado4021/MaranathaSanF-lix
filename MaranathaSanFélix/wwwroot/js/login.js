@@ -6,6 +6,8 @@
     const errorMessage = document.getElementById('errorMessage');
     const googleAuth = document.getElementById('googleAuth');
     const googleButtonText = document.getElementById('googleButtonText');
+    const container = document.querySelector('.container'); // Selecciona el contenedor de la clase 'container'
+    const backgroundOverlay = document.getElementById('backgroundOverlay'); // Selecciona la superposición de fondo
 
     // Manejar el envío del formulario
     authForm.addEventListener('submit', (e) => {
@@ -19,6 +21,16 @@
     // Manejo de Google Auth
     googleAuth.addEventListener('click', () => {
         alert('Login with Google clicked. Implement actual Google authentication here.');
+    });
+
+    // Cambiar la opacidad del fondo cuando se pasa el mouse sobre el contenedor
+    container.addEventListener('mouseenter', () => {
+        backgroundOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'; // Aumentar la opacidad
+    });
+
+    // Cambiar la opacidad al quitar el mouse
+    container.addEventListener('mouseleave', () => {
+        backgroundOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Reducir la opacidad
     });
 
     // Crear y animar círculos de fondo

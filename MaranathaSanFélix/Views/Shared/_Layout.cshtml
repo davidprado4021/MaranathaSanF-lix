@@ -16,7 +16,7 @@
 </head>
 <body>
     @* NavBar *@
-    <div class="sticky top-0">
+    <div class="sticky top-0 prueba">
         <div id="logo1" class="Bg-cyan-blue text-center topHeader">
             <a class="inline-block p-2" href="@Url.Action("Index","Home")">
                 <img class="filter invert brightness-0 logo" src="/Sources/Image/Logos/MaranathaSF.svg" alt="LogoMSF" />
@@ -53,57 +53,53 @@
         </main>
     </div>
     @* Footer *@
-    <footer>
-        <div class="flex font-div4">
-            <div>
-                <div class="img-logo03">
-                    <img class="filter invert brightness-0" src="/Sources/Image/Logos/MaranathaSF.svg" alt="Logo Maranatha" />
-                </div>
-                <ul class="p-whitegotham text-left ul-title">
-                    <li>NOSOTROS</li>
-                    <li>MINISTERIO</li>
-                    <li>CONTÁCTO</li>
-                    <li>DONACIONES</li>
-                </ul>
+   <footer>
+    <div class="flex01">
+        <div>
+            <div class="img-logo03">
+                <img class="filter invert brightness-0" src="/Sources/Image/Logos/MaranathaSF.svg" alt="Logo Maranatha" />
             </div>
+            <ul class="p-whitegotham text-left ul-title">
+                <li><a href="#about">NOSOTROS</a></li>
+                <li><a href="#ministry">MINISTERIO</a></li>
+                <li><a href="#contact">CONTÁCTO</a></li>
+                <li><a href="#donations">DONACIONES</a></li>
+            </ul>
+        </div>
 
-            <div class="p-whitegotham text-right">
-                <div class="divPosition">
-                <h3 class=" ">Ubicación:</h3>
+        <div class="p-whitegotham text-right">
+            <div class="divPosition">
+                <h3>Ubicación:</h3>
                 <p>
                     Vista Alegre, Calle Monagas <br>
                     Calle 1 - Local N°2 <br>
-                    San Félix Edo.Bolivar
+                    San Félix Edo. Bolívar
                 </p>
-                <h3>Contácto</h3>
+                <h3>Contacto</h3>
                 <div>
-                    <a>+58 424-000-000</a>
-                    <br>
-                    <a>+58 424-000-000</a>
+                    <a href="tel:+58424000000">+58 424-000-000</a><br>
+                    <a href="tel:+58424000000">+58 424-000-000</a>
                 </div>
                 <h3>E-mail</h3>
-                <a>info@maranathasanfelix.com</a>
-                </div>
-                <div class="flex">
-                    @* FacebookLogo *@
-                    <button onclick="window.open('https://www.facebook.com/Maranatha8051/', '_blank')">
-                        <img class="img-logo07" src="/Sources/Image/Logos/FBLogo.png" alt="Facebook Link" />
-                    </button>
-                    @* InstagramLogo *@
-                    <button onclick="window.open('https://www.instagram.com/sf.maranatha/', '_blank')">
-                        <img class="img-logo08" src="/Sources/Image/Logos/InstagramLogo.png" alt="Instagram Link" />
-                    </button>
-                    @* YoutubeLogo *@
-                    <button onclick="window.open('https://www.youtube.com/&#64MaranathaSanFelixOficial/', '_blank')">
-                        <img class="img-logo09" src="/Sources/Image/Logos/YTLogo.png" alt="Youtube Link" />
-                    </button>
-                    @* TikTokLogo *@
-                    <button onclick="window.open('https://www.tiktok.com/&#64maranathasanfelix?_t=8p0WTBhPDnh&_r=1/', '_blank')">
-                        <img class="img-logo10" src="/Sources/Image/Logos/TikTokLogo.png" alt="Tiktok Link" />
-                    </button>
-                </div>
+                <a href="mailto:info@maranathasanfelix.com">info@maranathasanfelix.com</a>
+            </div>
+            <div class="flex01">
+                <a href="https://www.facebook.com/Maranatha8051/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-logo07" src="/Sources/Image/Logos/FBLogo.png" alt="Facebook Link" />
+                </a>
+                <a href="https://www.instagram.com/sf.maranatha/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-logo08" src="/Sources/Image/Logos/InstagramLogo.png" alt="Instagram Link" />
+                </a>
+                    <a href="https://www.youtube.com/&#64MaranathaSanFelixOficial" target="_blank" rel="noopener noreferrer">
+                    <img class="img-logo09" src="/Sources/Image/Logos/YTLogo.png" alt="Youtube Link" />
+                </a>
+                    <a href="https://www.tiktok.com/&#64maranathasanfelix?_t=8p0WTBhPDnh&_r=1" target="_blank" rel="noopener noreferrer">
+                    <img class="img-logo10" src="/Sources/Image/Logos/TikTokLogo.png" alt="Tiktok Link" />
+                </a>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+
 </body>
 </html>

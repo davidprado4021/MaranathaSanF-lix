@@ -21,3 +21,22 @@ setInterval(() => {
     currentIndex = (currentIndex + 1) % items.length;
     updateCarousel();
 }, 3000); // Cambia la imagen cada 3 segundos
+
+//------------------------------------------------------------
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const leftImage = document.querySelector('.image-left');
+const rightImage = document.querySelector('.image-right');
+
+observer.observe(leftImage);
+observer.observe(rightImage);
+

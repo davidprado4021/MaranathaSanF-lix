@@ -1,196 +1,173 @@
-﻿/* Fondos del body index
+﻿
+/* Parte 1 Body Index
    ========================================================================== */
+
+/* Contenedor Principal */
 .font-div1 {
+    display: flex;
+    justify-content: space-between; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
     margin-top: -6rem;
     min-height: 100vh; /* Ocupa al menos el 100% del alto de la pantalla */
     width: 100vw; /* Ocupa el 100% del ancho de la pantalla */
-    background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
+    background-size: cover;
+    background-position: center;
     background-image: url('/Sources/Image/Background/BgBody01.png');
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-repeat: no-repeat;
 }
 
-.font-div2 {
-    min-height: 100vh;
-    width: 100vw; 
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 90% 10%;
-    background-size: cover;
-    background-position: center;
-    background-image: url('/Sources/Image/Background/BgBody02.png');
+/* Contenedor del Texto */
+.text-container {
+    flex: 1; /* Hace que el texto ocupe todo el espacio disponible a la izquierda */
+    max-width: 60%; /* Limita el ancho del texto */
+    padding-left: 6rem; /* Añade un poco de espacio a la derecha */
 }
 
-.font-div3 {
-    min-height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
-}
-
-.font-div5 {
-    min-height: 100vh; /* Ocupa al menos el 100% del alto de la pantalla */
-    width: 100vw; /* Ocupa el 100% del ancho de la pantalla */
-    background: linear-gradient(270deg, #f2f0dc, #f4a261, #e76f51, #f2cc8f, #f2f0dc);
-    background-size: 400% 400%;
-    animation: gradient-animation 12s ease infinite;
+/* Contenedor de la Imagen */
+.image-container {
+    flex: 1; /* Hace que la imagen ocupe el espacio disponible a la derecha */
+    max-width: 100%; /* Limita el ancho de la imagen */
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
-    text-align: center;
-    padding: 20px; /* Espaciado interno reducido para móviles */
+    margin-left: 20rem;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
 }
 
-.title-black {
-    font-size: 4rem; /* Ajustar el tamaño de la fuente para pantallas pequeñas */
-    margin-left: 10%;
-    margin-top: -5%;
+/* Ajustes para la Imagen */
+.img-body01 {
+    width: 40rem; /* La imagen ocupa el 100% del contenedor */
+    max-width: 100rem; /* Limitar el tamaño máximo de la imagen */
+    height: auto; /* Mantener la proporción */
 }
 
-/* Carrusel */
-.carousel-container {
-    width: 100%; /* Cambiar a un ancho más flexible */
-    max-width: 100%; /* Máximo ancho para el carrusel */
-    margin-top: 2%;
-    margin-left:-0.5%;
-    height: 60vh; /* Altura del carrusel como un porcentaje del viewport */
-    overflow: hidden;
+/* Títulos */
+.a-title {
+    font-size: 2.4rem;
+    color: #25354a; /* Azul oscuro para los títulos principales */
 }
 
-.carousel {
-    display: flex;
-    transition: transform 1s ease-in-out; /* Transición suave */
+.h1-title {
+    font-size: 10rem; /* Ajuste del tamaño a algo más razonable */
+    color: #6690D3; /* Un azul suave y llamativo para el H1 */
 }
 
-.carousel-item {
-    min-width: 100%; /* Cada item ocupa el 100% del contenedor */
-    flex-shrink: 0; /* No se encoge el elemento */
-    background-color: rgba(30, 30, 30, 0.8); /* Fondo oscuro para los items */
-    display: flex; /* Flex para centrar la imagen dentro */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+/* Párrafos */
+.p1-body {
+    font-size: 1.5rem;
+    line-height: 1.5; /* Mejorar la legibilidad */
+    margin-bottom: 1rem;
+    color: #25354a; /* El mismo azul oscuro para los párrafos */
+    padding: 1rem; /* Un poco de espacio interno para el fondo */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
 }
 
-.carousel-image {
-    max-width: 30%; /* Ajusta el ancho máximo de las imágenes */
-    max-height: 100%; /* Ajusta la altura máxima de las imágenes */
-    display: block; /* Asegura que el elemento de imagen se comporte como un bloque */
-    margin: auto;
-    object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+/* Botones */
+.b1-body {
+    font-size: 1rem;
+    padding: 10px 20px; /* Tamaño adecuado del botón */
+    background-color: #6690D3; /* Azul claro para el botón */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.carousel img {
-    width: 100%; /* Asegura que la imagen ocupe el ancho completo */
-    height: auto; /* Asegura que la imagen ocupe el alto completo */
-    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
-}
-
-.dots-container {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0; /* Espaciado alrededor de los puntos */
-    top: 10%; /* Ajustar la posición vertical según sea necesario */
-    left: 50%; /* Centrar horizontalmente */
-}
-
-.dot {
-    height: 10px; /* Altura del punto */
-    width: 10px; /* Ancho del punto */
-    margin: 0 5px; /* Espaciado entre puntos */
-    background-color: #bbb; /* Color del punto */
-    border-radius: 50%; /* Forma redonda */
-    display: inline-block; /* Se comporta como un bloque en línea */
-    transition: background-color 0.6s ease; /* Transición suave */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el punto */
-}
-
-    .dot.active {
-        background-color: #e76f51; /* Color del punto activo */
+    .b1-body:hover {
+        background-color: #506ea3; /* Cambio de color en hover para un efecto más dinámico */
     }
 
-.bd-bluegotham {
-    padding: 10px 20px; /* Espaciado interno del botón */
-    background-color: #1c3553; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    font-size: 1rem; /* Tamaño de la fuente ajustado para móviles */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-/* Media Queries para responsividad */
+/* Responsividad para pantallas medianas */
 @media (max-width: 768px) {
-    .title-black {
-        font-size: 3rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
-        margin-top: -5rem; /* Ajustar el margen superior para pantallas pequeñas */
+    .font-div1 {
+        flex-direction: column; /* Cambia a columna en pantallas medianas */
+        text-align: center; /* Centra el contenido */
     }
 
-    .carousel-container {
-        height: 30vh; /* Reducir la altura del carrusel en pantallas pequeñas */
+    .text-container, .image-container {
+        max-width: 100%; /* El texto y la imagen ocupan el 100% */
     }
 
-    .bd-bluegotham {
-        font-size: 0.9rem; /* Tamaño de fuente del botón para pantallas pequeñas */
-        padding: 8px 16px; /* Espaciado del botón reducido */
+    .a-title {
+        font-size: 2rem;
+        color: #25354a; /* Mismo azul oscuro */
+    }
+
+    .h1-title {
+        font-size: 2.5rem; /* Ajuste para pantallas medianas */
+        color: #6690D3; /* Mismo azul claro */
+    }
+
+    .p1-body {
+        font-size: 1.2rem;
+        color: #25354a; /* Mismo color de texto */
+    }
+
+    .b1-body {
+        font-size: 0.9rem;
+        background-color: #6690D3; /* Mismo color de botón */
     }
 }
 
+/* Responsividad para pantallas móviles */
 @media (max-width: 480px) {
-    .title-black {
-        font-size: 1.5rem; /* Tamaño de fuente aún más pequeño para móviles */
+    .font-div1 {
+        flex-direction: column;
+        text-align: center;
+        background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+        background-position: center;
+        min-height: 100vh; /* Se asegura de que el fondo cubra al menos toda la altura de la pantalla */
     }
 
-    .carousel-container {
-        height: 25vh; /* Reducir aún más la altura del carrusel en móviles */
+    .text-container {
+        padding-left: 0; /* Elimina el padding para móviles */
+        padding-right: 0; /* Asegura que el texto ocupe todo el ancho disponible */
+    }
+
+    .a-title {
+        font-size: 1.5rem;
+    }
+
+    .h1-title {
+        font-size: 1.8rem; /* Tamaño adecuado para móviles */
+    }
+
+    .p1-body {
+        font-size: 1rem;
+        color: #25354a; /* Mismo color de texto */
+    }
+
+    .b1-body {
+        font-size: 0.8rem;
+        background-color: #6690D3; /* Mismo color de botón */
+    }
+
+    /* Ajusta la imagen de fondo para móviles */
+    .font-div1 {
+        background-image: url('/Sources/Image/Background/BgBody01.png'); /* O usa la misma imagen si es responsive */
+        background-repeat: no-repeat;
+        background-size: cover; /* Se asegura que cubra toda la pantalla */
+        background-position: center; /* Centra la imagen */
     }
 }
 
-/* Fondos de divs index
+/* Parte 2 Body Index
    ========================================================================== */
-.font-div01 {
-    width: 100%;
+.font-div2 {
+    min-height: 100vh; /* Aseguramos que ocupe toda la pantalla */
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto; /* Separa el botón del contenido */
     background-size: cover;
     background-position: center;
-    background-image: url('/Sources/Image/Resources/AP-Nahum.png');
+    background-attachment: fixed; /* Parallax effect */
+    background-image: url('/Sources/Image/Background/BgBody02.png');
+    gap: 1rem;
 }
 
-.font-div02 {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url('/Sources/Image/Resources/AP-Javier.png');
-}
-
-.font-div03 {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url('/Sources/Image/Resources/AP-Hugo.png');
-}
-
-/* Fondos del body desde font-div2*/
-.evangelioImg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.evangelioInfo {
+.evangelioImg, .evangelioInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,16 +178,8 @@
         padding: 1rem 0;
     }
 
-/* Imagenes
-   ========================================================================== */
 .img-logo02 {
     width: 35rem;
-}
-
-.img-body01 {
-    margin-left: 32rem;
-    margin-top: -5%;
-    height: 50rem;
 }
 
 .img-body02 {
@@ -219,56 +188,165 @@
     animation-duration: 1.5s;
 }
 
-/* Posiciones
-   ========================================================================== */
-/*Titulos*/
-.a-title {
-    margin-left: 7%;
-    margin-top: 6.5rem;
+/* Contenedor del botón dentro del fondo */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5rem;
+    grid-column: 1 / -1; /* Para que el botón ocupe todo el ancho del grid */
 }
 
-.h1-title {
-    margin-left: 6%;
-    margin-top: 0.1rem;
-}
-
-.h2-title1 {
-    margin-left: 20rem;
-    margin-top: 3rem;
-}
-
-.h2-title2 {
-    margin-left: 6%;
-    margin-top: 2%;
-}
-
-/*Parrafos*/
-.p1-body {
-    margin-left: 6%;
-    margin-top: -10%;
-}
-
-.p2-body {
-    margin-left: 72rem;
-    margin-top: -30rem;
-}
-
-.p3-body {
-    margin-left: 90rem;
-    margin-top: 2rem;
-}
-
-/*Botones*/
-.b1-body {
-    margin-left: 6%;
-    margin-top: 1rem;
+.b-whitegotham {
+    font-family: 'Gotham-Medium';
+    background-color: #f2f0dc;
+    color: black;
+    padding: 9px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: solid;
+    font-weight: 600;
 }
 
 .b2-body {
-    grid-area: 2 / span 2;
     width: 15rem;
-    height: 4rem;
-    margin-left: 46%
+    height: 3rem;
+}
+
+/* Animación para las imágenes de entrada desde la izquierda y derecha */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.image-left, .image-right {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    z-index: 1
+}
+
+    .image-left.show {
+        animation: slideInLeft 1s forwards;
+    }
+
+    .image-right.show {
+        animation: slideInRight 1s forwards;
+    }
+
+
+/* Media Queries para hacer la página responsiva */
+@media (max-width: 1024px) {
+    .font-div2 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .img-body02, .img-logo02 {
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .b2-body {
+        width: 12rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .font-div2 {
+        grid-template-columns: 1fr;
+    }
+
+    .img-body02 {
+        width: 80%;
+        max-width: 18rem;
+    }
+
+    .img-logo02 {
+        width: 70%;
+    }
+
+    .b2-body {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-body02 {
+        width: 70%;
+    }
+
+    .img-logo02 {
+        width: 60%;
+    }
+
+    .b2-body {
+        width: 8rem;
+    }
+
+    .title-withegotham {
+        font-size: 1.5rem;
+    }
+
+    .p-whitegotham {
+        font-size: 1rem;
+    }
+}
+
+
+/* Parte 3 Body Index
+   ========================================================================== */
+.font-div3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.font-div01,
+.font-div02,
+.font-div03 {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease; /* Transición suave para el efecto de crecimiento */
+}
+
+/* Definición de imágenes */
+.font-div01 {
+    background-image: url('/Sources/Image/Resources/AP-Nahum.png');
+}
+
+.font-div02 {
+    background-image: url('/Sources/Image/Resources/AP-Javier.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+}
+
+.font-div03 {
+    background-image: url('/Sources/Image/Resources/AP-Hugo.png');
 }
 
 .b3-body {
@@ -276,15 +354,152 @@
     margin-top: 126.8%;
 }
 
-/*Animaciones*/
-@keyframes fadeInRight {
-    from {
-        margin-left: 0;
-        opacity: 20%;
+/* Media Queries para Responsividad */
+@media (max-width: 1024px) {
+    .font-div3 {
+        flex-direction: column;
+        height: auto;
     }
 
-    to {
-        margin-left: 8rem;
-        opacity: 100%;
+    .font-div01,
+    .font-div02,
+    .font-div03 {
+        height: 30vh;
     }
+}
+
+@media (max-width: 768px) {
+    .title-withegotham {
+        font-size: 1.5rem;
+    }
+
+    .b3-body {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .font-div01,
+    .font-div02,
+    .font-div03 {
+        height: 25vh;
+    }
+
+    .title-withegotham {
+        font-size: 1.2rem;
+    }
+
+    .b3-body {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+
+
+/* Parte 4 Body Index
+   ========================================================================== */
+/* Fondo animado */
+.font-div5 {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(270deg, #f2f0dc, #f4a261, #e76f51, #f2cc8f, #f2f0dc);
+    animation: gradient-animation 12s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center;
+}
+
+/* Carrusel */
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    flex-shrink: 0;
+    background-color: rgba(30, 30, 30, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    max-width: 30%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+    .dot.active {
+        background-color: #e76f51;
+    }
+
+.boton {
+    margin-bottom: 5rem; /* Margen superior para separación del contenido */
+}
+
+/* Otros estilos de títulos, párrafos y animaciones */
+.texto {
+    margin-top: 2rem; /* Ajusta el margen superior para separación */
+    margin-left:15rem;
+}
+
+/* Media Queries adicionales */
+@media (max-width: 768px) {
+    .title-black {
+        font-size: 3rem;
+        margin-top: -5rem;
+    }
+
+    .carousel-container {
+        height: 30vh;
+    }
+
+    .bd-bluegotham {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-black {
+        font-size: 1.5rem;
+    }
+
+    .carousel-container {
+        height: 25vh;
+    }
+}
+
+body {
+    overflow-x: hidden; /* Esto oculta cualquier desbordamiento horizontal */
 }

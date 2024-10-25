@@ -4,66 +4,51 @@
 }
 
 <link rel="stylesheet" href="~/css/LoginPag.css" asp-append-version="true" />
-<!-- Enlaza la hoja de estilos CSS para el diseño de la página de registro. -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-<!-- Enlaza la fuente Poppins desde Google Fonts para el texto de la página. -->
 
 <body>
     <div class="background"></div> <!-- Contenedor para el fondo de la página. -->
+    <div class="background-overlay" id="backgroundOverlay"></div> <!-- Superposición oscura -->
     <div class="container">
-        <!-- Contenedor principal para los elementos de la página. -->
         <div class="login-image">
             <a href="@Url.Action("Index", "Home")">
-                <!-- Enlace a la página de inicio. -->
                 <img src="/Sources/Image/Logos/MaranathaSF.svg" alt="LogoMSF" /> <!-- Logo de la Maranatha SF. -->
             </a>
         </div>
         <h2 id="formTitle">Register</h2> <!-- Título de la página de registro. -->
-        @if (!ViewData.ModelState.IsValid)
-        {
-            <div class="text-danger">
-                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                <!-- Muestra un resumen de los errores de validación si el modelo no es válido. -->
-            </div>
-        }
+
+        <p id="registerErrorMessage" class="error-message"></p>
+        <!-- Mensaje de error general que se utilizará para mostrar errores de validación -->
 
         <form asp-action="Register" asp-controller="Login" method="post" id="registerForm">
-            <!-- Formulario para el registro. Envía una solicitud POST al método Register en el LoginController. -->
-
             <div class="input-group">
                 <label asp-for="Name"></label> <!-- Etiqueta para el campo del nombre. -->
-                <input asp-for="Name" id="registerName" placeholder="Your name" required />
-                <!-- Campo de entrada para el nombre, obligatorio. -->
-                <span asp-validation-for="Name" class="text-danger"></span>
-                <!-- Mensaje de error específico para el campo del nombre. -->
+                <input asp-for="Name" id="registerName" placeholder="Your name" />
+                <span id="nameError" class="text-danger"></span> <!-- Mensaje de error específico para el campo del nombre. -->
             </div>
             <div class="input-group">
                 <label asp-for="Email"></label> <!-- Etiqueta para el campo de correo electrónico. -->
-                <input asp-for="Email" id="registerEmail" placeholder="your@email.com" required />
-                <!-- Campo de entrada para el correo electrónico, obligatorio. -->
-                <span asp-validation-for="Email" class="text-danger"></span>
-                <!-- Mensaje de error específico para el campo del correo electrónico. -->
+                <input type="text" asp-for="Email" id="registerEmail" placeholder="your@email.com" />
+                <span id="emailError" class="text-danger"></span> <!-- Mensaje de error específico para el campo del correo electrónico. -->
             </div>
             <div class="input-group">
                 <label asp-for="Password"></label> <!-- Etiqueta para el campo de la contraseña. -->
-                <input asp-for="Password" id="registerPassword" placeholder="••••••••" required type="password" />
-                <!-- Campo de entrada para la contraseña, obligatorio y de tipo "password". -->
-                <span asp-validation-for="Password" class="text-danger"></span>
-                <!-- Mensaje de error específico para el campo de la contraseña. -->
+                <input asp-for="Password" id="registerPassword" placeholder="••••••••" type="password" />
+                <span id="passwordError" class="text-danger"></span> <!-- Mensaje de error específico para el campo de la contraseña. -->
             </div>
+            <div class="input-group">
+                <label asp-for="ConfirmPassword"></label> <!-- Etiqueta para el campo de confirmación de la contraseña. -->
+                <input asp-for="ConfirmPassword" id="registerConfirmPassword" placeholder="••••••••" type="password" />
+                <span id="confirmPasswordError" class="text-danger"></span> <!-- Mensaje de error específico para el campo de confirmación de la contraseña. -->
+            </div>
+
             <button type="submit" id="submitButton">Register</button>
             <!-- Botón para enviar el formulario de registro. -->
         </form>
 
-        <p id="registerErrorMessage" class="error-message"></p>
-        <!-- Mensaje de error general que se puede utilizar para mostrar errores no relacionados con campos específicos. -->
         <button id="toggleAuth" class="toggle-auth">Already have an account? <a href="@Url.Action("Login", "Login")">Login</a></button>
         <!-- Botón para redirigir a los usuarios a la página de inicio de sesión si ya tienen una cuenta. -->
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="~/js/register.js"></script>
-    <!-- Enlaza el archivo JavaScript para manejar la lógica específica de la página de registro. -->
 </body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- Enlaza jQuery desde una CDN para utilizar sus funciones en la página. -->

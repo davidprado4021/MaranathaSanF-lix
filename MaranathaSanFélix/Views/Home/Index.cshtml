@@ -2,35 +2,44 @@
 <body>
     @* Parte 1 Body Index *@
     <div class="font-div1">
-        <a class="title-black a-title">Maranatha San Félix <br> Una Iglesia de</a>
-        <div class="text-right flex">
-            <h1 class="title-bluesketch h1-title">Amor <br> Fe <br> Poder</h1>
-            <img class="img-body01" src="/Sources/Image/Resources/PastoresHD.png" />
+        <div class="flex content-container">
+            <div class="text-container">
+                <a class="a-title">Maranatha San Félix <br> Una Iglesia de</a>
+                <h1 class="title-bluesketch h1-title">Amor <br> Fe <br> Poder</h1>
+                <p class="p1-body">
+                    Somos una iglesia unida por la misma pasión y <br>
+                    propósito: agradar el corazón de Jesús y proclamar <br>
+                    su transformador mensaje en toda Venezuela.
+                </p>
+                <button class="b-bluegotham b1-body">Ver Más</button>
+            </div>
+            <div class="image-container">
+                <img class="img-body01" src="/Sources/Image/Resources/PastoresHD.png" alt="Imagen de Pastores" />
+            </div>
         </div>
-        <p class="p-blackgotham p1-body">
-            Somos una iglesia unida por la misma pasión y <br>
-            propósito: agradar el corazón de Jesús y proclamar <br>
-            su transformador mensaje en toda Venezuela.
-        </p>
-        <button class="b-bluegotham b1-body">Ver Más</button>
     </div>
     @* Parte 2 Body Index *@
     <div class="font-div2">
-        <div class="evangelioImg">
+        <div class="evangelioImg image-left">
             <img class="img-body02" src="/Sources/Image/Resources/EECR1.png" alt="Persona del Evangelio Cambia" />
         </div>
         <div class="evangelioInfo">
-            <img class="img-logo02" src="/Sources/Image/logos/EECLogo.png" alt="Logo del Evangelio Cambia" />
+            <div class="image-right">
+                <img class="img-logo02" src="/Sources/Image/logos/EECLogo.png" alt="Logo del Evangelio Cambia" />
+            </div >
             <h2 class="title-withegotham">Cambiando Vidas <br> para bien y para Siempre</h2>
             <p class="p-whitegotham text-center">
                 Por tanto, id, y haced discipulos a todas las <br>
                 naciones, bautizandolos en el nombre del Padre y <br>
                 del Hijo, y del Espiritu Santo;
             </p>
-            <p class="title-withegotham">Mateo 28:19 </p>
+            <p class="title-withegotham">Mateo 28:19</p>
         </div>
-        <button class="b-whitegotham b2-body">Ver Más</button>
+        <div class="button-container">
+            <button class="b-whitegotham b2-body">Ver Más</button>
+        </div>
     </div>
+
     @* Parte 3 Body Index *@
     <div class="flex font-div3">
         @* Apostol Nahum *@
@@ -46,8 +55,8 @@
         <div class="font-div03"></div>
     </div>
     @* Parte 4 Body Index *@
-    <div class="Bg-light-grayish-yellow font-div5">
-        <h2 class="title-black">Iglesia</h2>
+    <div class="font-div5">
+        <h2 class="title-black texto">Iglesia</h2>
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-item">
@@ -68,9 +77,8 @@
             <span class="dot"></span>
         </div>
 
-        <button class="bd-bluegotham">Ver Más</button>
+        <button class="bd-bluegotham boton">Ver Más</button>
     </div>
-
 
     <script src="~/js/Index.js"></script>
 </body>
