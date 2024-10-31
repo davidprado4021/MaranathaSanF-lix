@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaranathaSanFélix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d6abfce5b4a88b0304800ccaa3bb18c43a88d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c75a4c57b7847bd207d4e8dbc360063e5f02ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaranathaSanFélix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaranathaSanFélix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

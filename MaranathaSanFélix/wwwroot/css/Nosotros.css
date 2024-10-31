@@ -38,8 +38,6 @@ h1 {
     margin-bottom: 10rem;
 }
 
-
-
 .separator {
     margin: 2rem 0; /* Espacio arriba y abajo */
     border: none; /* Elimina el borde por defecto */
@@ -53,7 +51,7 @@ h1 {
     margin-left:10rem;
 }
 
-li {
+.fontdiv02 li {
     font-weight: normal;
     color: grey;
     margin-left: 10rem;
@@ -90,17 +88,62 @@ img{
     min-width: 100vw;
     background-color: white;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
-    padding-bottom: 5rem;
+    padding-bottom: 20rem;
+    color: #2d3748;
+    font-family: Arial, sans-serif;
 }
+
 .divBackg {
     background-color: #2d3748;
 }
 
-h3 {
-    border-radius: 49px 49px 49px 49px;
-    -webkit-border-radius: 49px 49px 49px 49px;
-    -moz-border-radius: 49px 49px 49px 49px;
-    background-color:blue;
-    width:6rem;
+.fontdiv03 h2 {
+    margin: 3rem 0 5rem 0;
+    font-size: 2rem;
+    color: #3e7ccc;
+    text-align: center;
+}
 
+.fontdiv03 h3 {
+    background-color: #3e7ccc;
+    width: fit-content;
+    margin: 2rem 0 1rem 25rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.fontdiv03 p {
+    margin-left: 25rem;
+    max-width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+    .fontdiv03 p + a {
+        display: block;
+        margin-left: 25rem;
+        margin-top:1rem;
+        font-size: 1rem;
+        color: #7d7d7d;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .fontdiv03 p + p {
+        margin-left: 25rem;
+        margin-top:1rem;
+        font-size: 1.1rem;
+        color: #7d7d7d;
+        font-style: italic;
+        line-height: 1.2;
+        max-width: 60%;
+    }
+
+
+body {
+    overflow-x: hidden;
 }
