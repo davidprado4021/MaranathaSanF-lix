@@ -64,10 +64,6 @@ body {
     }
 
 /* Estilos de las Imágenes */
-.img-logo03 {
-    width: 25rem;
-    margin: 10% 0 0 15%;
-}
 
 .img-logo07, .img-logo08, .img-logo09, .img-logo10 {
     width: 5rem; /* Ajustar según sea necesario */
@@ -85,21 +81,6 @@ body {
 .img-logo10 {
     margin-left: -2rem;
 }
-
-/* Posiciones */
-.ul-title {
-    margin: 15% 0 0 30%;
-    width: 18rem;
-    height: 18rem;
-    font-size: 2.4rem;
-    line-height: 4rem;
-}
-
-.divPosition {
-    margin-top: 5%;
-    margin-right: 2%;
-}
-
 /* Estilos Dinámicos */
 .topHeader {
     transition: 1s ease;
@@ -143,106 +124,106 @@ body {
     }
 }
 
-/* Estilos de Footer */
-footer {
-    background-color: #2d3748; /* Color de fondo del footer */
-    color: white; /* Color del texto del footer */
-    padding: 2rem; /* Espaciado en el footer */
-}
-
-/* Media Queries para Responsividad */
-@media (max-width: 600px) {
-    .font-div4 {
-        min-height: 30vh;
-    }
-
-    .navbar a {
-        font-size: 0.9rem; /* Texto más pequeño en móviles */
-        padding: 5px 10px; /* Espaciado reducido */
-    }
-
-    .img-logo03 {
-        width: 15rem; /* Ajustar el tamaño de la imagen del logo */
-        margin: 5% 0 0 10%; /* Ajustar márgenes */
-    }
-
-    .ul-title {
-        margin: 10% 0 0 10%;
-        width: 100%; /* Ancho completo */
-        height: auto; /* Ajuste automático */
-        font-size: 1.6rem; /* Tamaño de fuente reducido */
-        line-height: 2rem; /* Altura de línea ajustada */
-    }
-
-    .divPosition {
-        margin-top: 3%; /* Margen superior reducido */
-        margin-right: 0; /* Sin margen derecho */
-    }
-
-    .img-logo07, .img-logo08, .img-logo09, .img-logo10 {
-        width: 4rem; /* Ajustar tamaño de íconos en móviles */
-    }
-}
-
-@media (min-width: 600px) {
-    .font-div4 {
-        min-height: 40vh; /* Altura mayor en pantallas más grandes */
-    }
-
-    .navbar a {
-        font-size: 1rem; /* Texto de tamaño normal */
-    }
-
-    .img-logo03 {
-        width: 25rem; /* Mantener tamaño en pantallas grandes */
-    }
-
-    .ul-title {
-        margin: 15% 0 0 30%;
-        width: 18rem; /* Mantener ancho en pantallas grandes */
-        height: 18rem; /* Mantener altura en pantallas grandes */
-        font-size: 2.4rem; /* Mantener tamaño de fuente */
-        line-height: 4rem; /* Mantener altura de línea */
-    }
-}
-
-
-
 /*----------------------------------------------------------------------------------------------------*/
-
 /* Estilos de Footer */
+
 footer {
-    color: white; /* Color del texto del footer */
-    display: flex; /* Flexbox para alinear elementos */
-    flex-direction: column; /* Direccion vertical */
+    background-color: #2d3748; /* Fondo del footer */
+    color: white; /* Color del texto */
+    display: flex;
+    flex-direction: column; /* Dirección vertical */
     align-items: center; /* Alinear al centro */
+    justify-content: center; /* Centrar el contenido verticalmente */
+    height: 40vh; /* Ajusta la altura del footer al 40% de la altura de la ventana */
+    padding: 1rem; /* Ajusta el padding según lo necesites */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3); /* Sombra opcional para un efecto visual más formal */
+    overflow: hidden; /* Evita el desbordamiento del contenido */
 }
 
-/* Flex para alineación en móviles */
+.footer-right {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 83rem; /* Ajusta según sea necesario */
+}
+
+.footer-title {
+    font-size: 2rem; /* Tamaño de letra más pequeño para los títulos */
+    font-weight: bold;
+    margin-bottom:0.5rem;
+}
+
+.footer-text {
+    font-size: 1.3rem; /* Tamaño de letra más pequeño para el texto */
+    line-height: 1.2; /* Mejora el espaciado entre líneas */
+    font-weight: normal;
+    letter-spacing: 0.04rem; /* Elimina el espacio entre letras */
+    margin-bottom: 0.5rem;
+}
+.spacebetween {
+    display: flex;
+    flex-direction: column; /* Mantiene los elementos en columna */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+    .spacebetween a:first-child {
+        margin-bottom: -0.2rem; /* Ajusta para reducir el espacio entre los números */
+    }
+
+.footer-link {
+    font-size: 1.3rem; /* Tamaño de letra más pequeño para los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina subrayado */
+}
+
+    .footer-link:hover {
+        text-decoration: underline; /* Subrayado al pasar el mouse */
+    }
+
 .flex01 {
     display: flex;
-    flex-direction: column; /* Dirección vertical en móviles */
     align-items: center; /* Alinear al centro */
+    justify-content: center; /* Centrar verticalmente los elementos */
 }
 
-@media (min-width: 600px) {
-    .flex01 {
-        flex-direction: row; /* Dirección horizontal en pantallas más grandes */
-        justify-content: space-between; /* Espacio entre los elementos */
-        width: 100%; /* Ancho completo */
-    }
+/* Ajuste de los iconos de redes sociales */
+.img-logo07, .img-logo08, .img-logo09, .img-logo10 {
+    object-fit: contain; /* Mantener proporción */
+    margin: 0.5rem; /* Espacio entre íconos */
 }
 
-/* Títulos y párrafos dentro del footer */
-h3 {
-    margin: 0.5rem 0; /* Espaciado vertical */
+.img-logo03 { /* Logo de la iglesia */
+    margin: 15% 0 15% 25%;
+    width: 15rem; /* Ajuste de tamaño para logo */
+    height: auto; /* Mantener proporción */
 }
 
-.p-whitegotham {
-    margin: 1rem 0; /* Margen en texto */
+.img-logo07 { /* TikTok */
+    width: 3rem; /* Ajuste de tamaño */
+    height: 3rem;
+}
+
+.img-logo08 { /* YouTube */
+    width: 2.8rem; /* Ajuste de tamaño */
+    height: 2.8rem;
+}
+
+.img-logo09 { /* Instagram */
+    width: 2.5rem; /* Ajuste de tamaño */
+    height: 2.5rem;
+}
+
+.img-logo10 { /* Facebook */
+    width: 3rem; /* Ajuste de tamaño */
+    height: 2rem;
 }
 
 .ul-title {
-    list-style-type: none; /* Sin viñetas */
-    padding: 0; /* Sin relleno */
+    margin-left:30%;
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: 0;
+    font-weight: bold;
 }

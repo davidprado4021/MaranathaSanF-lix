@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8JDClIe04tdjLX0RBjh6ZYLTsxYEUygXM+KTVL+tz/Y=",
+  "Hash": "RVUh3MFMivBq2UEGtDYUqeC8MiaTa0a8c3KMFm53XFg=",
   "Source": "MaranathaSanFélix",
   "BasePath": "_content/MaranathaSanFélix",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "wwwroot\\css\\LoginPag.css"
     },
     {
+      "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\Nosotros.css",
+      "SourceId": "MaranathaSanFélix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\",
+      "BasePath": "_content/MaranathaSanFélix",
+      "RelativePath": "css/Nosotros.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Nosotros.css"
+    },
+    {
       "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\Index.js",
       "SourceId": "MaranathaSanFélix",
       "SourceType": "Discovered",
@@ -1440,6 +1459,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Sources\\Image\\Background\\BgBody02.png"
+    },
+    {
+      "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Background\\BgBody03.png",
+      "SourceId": "MaranathaSanFélix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\",
+      "BasePath": "_content/MaranathaSanFélix",
+      "RelativePath": "Sources/Image/Background/BgBody03.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sources\\Image\\Background\\BgBody03.png"
     },
     {
       "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\EECLogo.png",
@@ -1725,6 +1763,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Sources\\Image\\Resources\\Lilina&Jose.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\PastoresCamporeale.png",
+      "SourceId": "MaranathaSanFélix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\",
+      "BasePath": "_content/MaranathaSanFélix",
+      "RelativePath": "Sources/Image/Resources/PastoresCamporeale.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sources\\Image\\Resources\\PastoresCamporeale.png"
     },
     {
       "Identity": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\PastoresHD.png",

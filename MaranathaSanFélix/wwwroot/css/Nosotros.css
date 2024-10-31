@@ -1,0 +1,106 @@
+﻿/*PrimeraParte
+----------------------------------------------------------------------------------------------------*/
+.basicdiv {
+    background-color: #f2f0dc;
+}
+.fontdiv {
+    margin-top: -6rem;
+    background-image: url('/Sources/Image/Background/BgBody03.png');
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10rem;
+    font-size: 5rem;
+}
+
+/*SegundaParte
+----------------------------------------------------------------------------------------------------*/
+.fontdiv02 {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #f2f0dc;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+    padding-bottom: 5rem;
+}
+
+.divPosiciontFlex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+
+
+
+.separator {
+    margin: 2rem 0; /* Espacio arriba y abajo */
+    border: none; /* Elimina el borde por defecto */
+    height: 1px; /* Altura de la línea */
+    background-color: #ccc; /* Color de la línea */
+    width: 50%; /* Ancho de la línea (ajusta según tus preferencias) */
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+}
+.imgPosition {
+    margin-left:10rem;
+}
+
+li {
+    font-weight: normal;
+    color: grey;
+    margin-left: 10rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-weight: bold;
+    color: #3e7ccc;
+    margin-left: 60rem;
+    font-size: 2rem;
+    margin-bottom:2rem;
+}
+
+.divPosiciontFlex h2 {
+    margin-left: 9rem;
+    margin-top:10rem;
+}
+
+.divPosiciontFlex li {
+    margin-left: 9rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+img{
+    width:35rem;
+}
+/*TerceraParte
+----------------------------------------------------------------------------------------------------*/
+.fontdiv03 {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+    padding-bottom: 5rem;
+}
+.divBackg {
+    background-color: #2d3748;
+}
+
+h3 {
+    border-radius: 49px 49px 49px 49px;
+    -webkit-border-radius: 49px 49px 49px 49px;
+    -moz-border-radius: 49px 49px 49px 49px;
+    background-color:blue;
+    width:6rem;
+
+}

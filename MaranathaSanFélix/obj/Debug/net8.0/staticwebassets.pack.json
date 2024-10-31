@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Sources\\Image\\Background\\BgBody02.png"
     },
     {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Background\\BgBody03.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Background\\BgBody03.png"
+    },
+    {
       "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Logos\\EECLogo.png",
       "PackagePath": "staticwebassets\\Sources\\Image\\Logos\\EECLogo.png"
     },
@@ -89,6 +93,10 @@
       "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\Lilina&Jose.jpg"
     },
     {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\PastoresCamporeale.png",
+      "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\PastoresCamporeale.png"
+    },
+    {
       "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\Sources\\Image\\Resources\\PastoresHD.png",
       "PackagePath": "staticwebassets\\Sources\\Image\\Resources\\PastoresHD.png"
     },
@@ -107,6 +115,10 @@
     {
       "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\LoginPag.css",
       "PackagePath": "staticwebassets\\css\\LoginPag.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\css\\Nosotros.css",
+      "PackagePath": "staticwebassets\\css\\Nosotros.css"
     },
     {
       "Id": "C:\\Users\\david\\source\\repos\\MaranathaSanFélix\\MaranathaSanFélix\\wwwroot\\js\\Index.js",
